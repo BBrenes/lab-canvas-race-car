@@ -1,9 +1,9 @@
 const canvas = document.getElementById("canvas")
 const ctx = canvas.getContext("2d")
 const roadImg = new Image()
-roadImg.src = "/images/road.png"
+roadImg.src = "./images/road.png"
 const carImg = new Image()
-carImg.src = "/images/car.png"
+carImg.src = "./images/car.png"
 const backgroundImage = {
   img: roadImg,
   y: 0,
